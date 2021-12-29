@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>week14lab</title>
+</head>
+<body>
+	<script >
+		var input=window.prompt("input data");
+		var inputChar=window.prompt("input a char to serach");
+		var i;
+		
+		var result="Index of "+inputChar+ " : "+
+					input.indexOf(inputChar)+","+
+					input.indexOf(inputChar,input.indexOf(inputChar)+1)+","+
+					input.lastIndexOf(inputChar)
+		document.write(result);
+
+	</script>
+	
+</body>
+</html>
